@@ -16,7 +16,10 @@ def simulation():
     print("Simulation")
     return
 
-def main():   
+def main():
+    if option != "1" and option != "2":
+        print("Invalid option")
+        return   
     if option == "1":
         manualInput()
     if option == "2":
